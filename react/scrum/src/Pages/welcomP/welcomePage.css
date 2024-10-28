@@ -1,0 +1,71 @@
+/* welcomePage.css */
+
+.welcomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Style pour le titre */
+.titreText h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour le paragraphe */
+.welcomePage p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+}
+
+/* Style pour le bouton */
+.welcomePage button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcomePage button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .titreText h2 {
+        font-size: 2rem;
+    }
+    .welcomePage p {
+        font-size: 1rem;
+    }
+    .welcomePage button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titreText h2 {
+        font-size: 1.5rem;
+    }
+    .welcomePage p {
+        font-size: 0.9rem;
+    }
+    .welcomePage button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
